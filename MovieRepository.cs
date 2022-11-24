@@ -19,6 +19,7 @@ namespace MoviesAndActors
             var starWars4 = new Movie("Star Wars: A New Hope", 1977, "Science Fiction", 4.5f);
             var starWars5 = new Movie("Star Wars: The Empire Strikes Back", 1980, "Science Fiction", 5.25f);
             var starWars6 = new Movie("Star Wars: Return of the Jedi", 1983, "Science Fiction", 6f);
+            var newMovie = new Movie("This is an example movie", 2022, "Avant Garde", 34f);
 
             Movies = new List<Movie>() { starWars4, starWars5, starWars6 };
 
